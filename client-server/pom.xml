@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>client_server</artifactId>
+    <artifactId>oauth2_marathon_e3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>oauth2_marathon_e3</name>
     <description>oauth2_marathon_e3</description>
