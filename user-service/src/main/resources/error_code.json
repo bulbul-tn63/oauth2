@@ -1,0 +1,486 @@
+{
+  "apiErrors": [
+    {
+      "code": "a40000",
+      "message": "system exception has been thrown"
+    },
+    {
+      "code": "a40001",
+      "message": "User not exists"
+    },
+    {
+      "code": "a40003",
+      "message": "Id is required."
+    },
+    {
+      "code": "a40004",
+      "message": "User exists with this name. Please try with another name."
+    },
+    {
+      "code": "a40010",
+      "message": "Invalid jwt token."
+    },
+    {
+      "code": "u1001",
+      "message": "User has no role"
+    },
+    {
+      "code": "a50001",
+      "message": "Refresh token was expired. Please make a new signin request."
+    },
+    {
+      "code": "a50002",
+      "message": "Invalid user name or password."
+    },
+    {
+      "code": "a40012",
+      "message": "Invalid email pattern."
+    },
+    {
+      "code": "a40008",
+      "message": "login size should be in between 4 and 20."
+    },
+    {
+      "code": "a40011",
+      "message": "Passwords must be at least 8 characters in length and a combination of numbers, letters, and special characters [Minimum 2 types are mandatory]"
+    },
+    {
+      "code": "a40013",
+      "message": "Password mismatch with confirmation password."
+    },
+    {
+      "code": "a40014",
+      "message": "Failed to save user."
+    },
+    {
+      "code": "common02",
+      "message": "Active flag is already set as given value."
+    },
+    {
+      "code": "merchant_10001",
+      "message": "Merchant not saved."
+    },
+    {
+      "code": "merchant_10002",
+      "message": "Duplicate merchant exists."
+    },
+    {
+      "code": "merchant_10003",
+      "message": "Merchant not found."
+    },
+    {
+      "code": "merchant_10004",
+      "message": "Merchant credential not found."
+    },
+    {
+      "code": "u_10001",
+      "message": "User name is required."
+    },
+    {
+      "code": "p_10002",
+      "message": "Password and confirm password miss matched."
+    },
+    {
+      "code": "c_10004",
+      "message": "Payment credential already exists for this payment channel."
+    },
+    {
+      "code": "cms_10001",
+      "message": "Merchant credential not saved."
+    },
+    {
+      "code": "cms_10002",
+      "message": "upstream merchant name is required."
+    },
+    {
+      "code": "cms_10003",
+      "message": "certificate path is required."
+    },
+    {
+      "code": "cms_10004",
+      "message": "app key is required."
+    },
+    {
+      "code": "cms_10005",
+      "message": "Password is required."
+    },
+    {
+      "code": "cms_10006",
+      "message": "confirm password is required."
+    },
+    {
+      "code": "cms_10007",
+      "message": "key store password is required."
+    },
+    {
+      "code": "cms_10008",
+      "message": "App secret is required."
+    },
+    {
+      "code": "cms_10009",
+      "message": "Refresh token is required."
+    },
+    {
+      "code": "cms_10010",
+      "message": "Failed to parse user from authentication."
+    },
+    {
+      "code": "cms_10011",
+      "message": "Invalid role: Failed to parse."
+    },
+    {
+      "code": "cms_10012",
+      "message": "You are not authorized for this request."
+    },
+    {
+      "code": "cms_10013",
+      "message": "Invalid old password."
+    },
+    {
+      "code": "cms_10014",
+      "message": "This email already exits for this user"
+    },
+    {
+      "code": "payment_channel_10001",
+      "message": "Payment channel not saved."
+    },
+    {
+      "code": "payment_channel_10003",
+      "message": "Payment channel not found."
+    },
+    {
+      "code": "payment_channel_10004",
+      "message": "Payment channel already exists."
+    },
+    {
+      "code": "cms_20000",
+      "message": "Url is required."
+    },
+    {
+      "code": "merchant_url_10001",
+      "message": "Return url already exists."
+    },
+    {
+      "code": "merchant_email_10002",
+      "message": "Email already exists."
+    },
+    {
+      "code": "merchant_account_10003",
+      "message": "Account already exists."
+    },
+    {
+      "code": "currency_10001",
+      "message": "Currency not found."
+    },
+    {
+      "code": "currency_10002",
+      "message": "Currency not saved."
+    },
+    {
+      "code": "currency_10003",
+      "message": "Currency Code size should be 3.."
+    },
+    {
+      "code": "currency_10004",
+      "message": "This currency number already exists"
+    },
+    {
+      "code": "currency_10005",
+      "message": "This currency code already exists"
+    },
+    {
+      "code": "exchange_10006",
+      "message": "Rate must be greater than 0"
+    },
+    {
+      "code": "cms_20001",
+      "message": "Invalid merchant logo. Image not found."
+    },
+    {
+      "code": "cms_20002",
+      "message": "Can not delete image. Merchant exists with this logo."
+    },
+    {
+      "code": "cms_20003",
+      "message": "Password is not allowed for this merchant credential."
+    },
+    {
+      "code": "cms_20004",
+      "message": "Upstream merchant name is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20005",
+      "message": "App key is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20006",
+      "message": "Password is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20007",
+      "message": "App secret is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20008",
+      "message": "Certificate path is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20009",
+      "message": "Key store password is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20010",
+      "message": "User name is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20011",
+      "message": "Role can not be empty."
+    },
+    {
+      "code": "module_11100",
+      "message": "Module name parse error."
+    },
+    {
+      "code": "cms_20012",
+      "message": "Failed to parse order status."
+    },
+    {
+      "code": "cms_20013",
+      "message": "Start time must be less than or equal to end time."
+    },
+    {
+      "code": "cms_20014",
+      "message": "Date Range Must Be Less Than Or Equal 31 Day"
+    },
+    {
+      "code": "cms_20015",
+      "message": "File path not found."
+    },
+    {
+      "code": "cms_20016",
+      "message": "Failed to load jasper template."
+    },
+    {
+      "code": "cms_20017",
+      "message": "Start and end time is blank."
+    },
+    {
+      "code": "cms_20018",
+      "message": "File name can not be blank."
+    },
+    {
+      "code": "cms_20019",
+      "message": "Payment order not found."
+    },
+    {
+      "code": "iap_70001",
+      "message": "Invalid access permission for the role."
+    },
+    {
+      "code": "ads_80001",
+      "message": "Actions data not saved dynamically."
+    },
+    {
+      "code": "mds_80002",
+      "message": "Modules data not saved dynamically."
+    },
+    {
+      "code": "ards_80003",
+      "message": "Action rights data not saved dynamically."
+    },
+    {
+      "code": "cms_10015",
+      "message": "Super Admin and Merchant User Registration is not allowed"
+    },
+    {
+      "code": "cms_20020",
+      "message": "Nagad pubic key is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20021",
+      "message": "Nagad public key is required."
+    },
+    {
+      "code": "cms_20022",
+      "message": "Merchant private key is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20023",
+      "message": "Merchant private key is required."
+    },
+    {
+      "code": "cms_20024",
+      "message": "Invalid channel type: Failed to parse."
+    },
+    {
+      "code": "cms_20025",
+      "message": "Invalid card type: Failed to parse."
+    },
+    {
+      "code": "cms_20026",
+      "message": "Country code should be 'BD'."
+    },
+    {
+      "code": "cms_20027",
+      "message": "Upay Merchant Id is required"
+    },
+    {
+      "code": "cms_20028",
+      "message": "Upay Merchant Id is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20029",
+      "message": "Upay Merchant Key is required"
+    },
+    {
+      "code": "cms_20030",
+      "message": "Upay Merchant Key is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20031",
+      "message": "Upay Merchant Code is required"
+    },
+    {
+      "code": "cms_20032",
+      "message": "Upay Merchant Code is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20033",
+      "message": "Upay Merchant Name is required"
+    },
+    {
+      "code": "cms_20034",
+      "message": "Upay Merchant Name is not allowed for this channel type."
+    },
+    {
+      "code": "cms_20035",
+      "message": "Invalid Mobile Number Pattern"
+    },
+    {
+      "code": "cms_20036",
+      "message": "Failed to parse refund status."
+    },
+    {
+      "code": "cms_20037",
+      "message": "Payment order is not approved"
+    },
+    {
+      "code": "cms_20038",
+      "message": "Refund amount is greater than payment order amount"
+    },
+    {
+      "code": "cms_20039",
+      "message": "Already full refund for this payment order"
+    },
+    {
+      "code": "cms_20040",
+      "message": "Merchant not allowed to refund this payment order"
+    },
+    {
+      "code": "cms_20041",
+      "message": "Refund request not found"
+    },
+    {
+      "code": "cms_30000",
+      "message": "Payment Order Id is required."
+    },
+    {
+      "code": "cms_30001",
+      "message": "Order status is required."
+    },
+    {
+      "code": "cms_20042",
+      "message": "Invalid access permission for the Merchant"
+    },
+    {
+      "code": "cms_20043",
+      "message": "Refund not saved."
+    },
+    {
+      "code": "cms_20044",
+      "message": "Refund amount should be greater than zero"
+    },
+    {
+      "code": "cms_30002",
+      "message": "No payment detail found for this refund request."
+    },
+    {
+      "code": "cms_30003",
+      "message": "No refund is permitted for this channel."
+    },
+    {
+      "code": "cms_30004",
+      "message": "Upstream Error: Failed to refund."
+    },
+    {
+      "code": "cms_30005",
+      "message": "Merchant can do refund only once for a transaction at bkash."
+    },
+    {
+      "code": "cms_40000",
+      "message": "Merchant can do refund only once for a transaction at brac."
+    },
+    {
+      "code": "brs_40000",
+      "message": "Brac payment id is not found."
+    },
+    {
+      "code": "brs_40001",
+      "message": "Brac refund tran data is null."
+    },
+    {
+      "code": "brs_40002",
+      "message": "Brac refund tran data decryption result is not zero or error text is not null."
+    },
+    {
+      "code": "brs_40003",
+      "message": "Brac refund view generation error."
+    },
+    {
+      "code": "brs_40004",
+      "message": "Payment order id not found."
+    },
+    {
+      "code": "brs_40005",
+      "message": "Amount not found."
+    },
+    {
+      "code": "nagad_40001",
+      "message": "Nagad: Failed to parse nagad public key."
+    },
+    {
+      "code": "nagad_40002",
+      "message": "Nagad: Failed to parse merchant private key."
+    },
+    {
+      "code": "nagad_40003",
+      "message": "Nagad: Failed to encrypt data by nagad public key."
+    },
+    {
+      "code": "nagad_40004",
+      "message": "Nagad: Data can not be empty."
+    },
+    {
+      "code": "nagad_40005",
+      "message": "Nagad: Failed to decrypt data."
+    },
+    {
+      "code": "nagad_40006",
+      "message": "Nagad: Invalid merchant private key."
+    },
+    {
+      "code": "nagad_40007",
+      "message": "Nagad: Failed to generate signature."
+    },
+    {
+      "code": "nagad_40008",
+      "message": "Merchant is allowed to refund at nagad once for a payment."
+    },
+    {
+      "code": "cms_20055",
+      "message": "Amount is required for partial refund"
+    }
+  ]
+}
+
+
